@@ -1,35 +1,34 @@
 body{
-    background-color: white;
+    background-color: black;
     margin: 3em;
     padding: 0 auto;
 }
 
-.container{
+.mainContainer{
     width: 100%;
     height: 100%;
     margin: 0 auto;
-    border: 10px solid black;
-    display: grid;
+    border: 10px solid white;
+    display: grid;s
     grid-template-rows: 3fr 1fr;
-    grid-template-columns: 0;
+    grid-template-columns: 1fr 1fr;
     grid-template-areas:
-        'maintitle maintitle'
-        'tab tab'
-
-    
+        'mainTitle mainTitle'
+        'tabs tabs'
 }
 
-#title{
+#mainTitle{
+    grid-area: mainTitle;
     text-align:center; 
     font-size:75px;
-    color:black;
+    color: white;
     grid-area: 1 / 1 / 2 / 3;
 }
 
-#tab{
+#tabs{
+    grid-area: tabs;
     text-align:center; 
     font-size:25px;
-    color:black;
+    color:white;
     grid-area: 2 / 1 / 3 / 3;
 }
-
