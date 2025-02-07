@@ -1,10 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap');
-
 body {
     background-color: black;
     margin: 0;
     padding: 0;
-    font-family: 'Montserrat', sans-serif;
 }
 
 .mainContainer {
@@ -47,6 +44,24 @@ body {
 }
 
 #tabs a:hover {
+    color: gray;
+    transform: scale(1.1);
+}
+
+.back-btn {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease-in-out;
+    padding: 5px 10px;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+
+.back-btn:hover {
     color: gray;
     transform: scale(1.1);
 }

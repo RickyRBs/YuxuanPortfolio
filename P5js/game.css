@@ -68,19 +68,3 @@ p {
     color: gray;
     transform: scale(1.1);
 }
-
-@media (max-width: 600px) {
-    .mainContainer {
-        width: 95%;
-        padding: 10px;
-    }
-    .content-grid {
-        width: 100%;
-    }
-    .canvas-container {
-        max-height: 300px;
-    }
-    h1 {
-        font-size: 1.2rem;
-    }
-}

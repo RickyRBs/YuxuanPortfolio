@@ -40,7 +40,7 @@ body {
 }
 
 #tabs {
-    font-size: clamp(16px, 3vw, 40px);
+    font-size: clamp(16px, 2vw, 40px);
     font-weight: bold;
     color: white;
     display: flex;
